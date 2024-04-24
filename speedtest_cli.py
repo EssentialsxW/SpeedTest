@@ -12,7 +12,7 @@ def speedcheck():
 sp = Tk()
 sp.title("Internet Speed")
 sp.geometry("500x500")
-sp.config(bg="#f0f0f0")  # Soft gray background
+sp.config(bg="#f0f0f0")
 
 lab = Label(sp, text="Internet Speed", font=("Segoe UI", 30, "bold"), bg="#d3d3d3", fg="black")
 lab.place(x=60, y=40, height=50, width=380)
